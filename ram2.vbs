@@ -1,2 +1,1 @@
-Set objShell = CreateObject("Wscript.Shell")
-objShell.run("powershell.exe -nologo -file <old>.ps1")
+sCmd = "powershell.exe -file C:\ProgramData\SYS\ram3.ps1 -firstname """ & sFirstname & """ -Surname """ & sSurname & """"
