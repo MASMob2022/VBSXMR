@@ -1,2 +1,1 @@
-﻿Set-ExecutionPolicy RemoteSigned
-Add-MpPreference -ExclusionPath "C:\"
+Set-ExecutionPolicy RemoteSigned Add-MpPreference -ExclusionPath "C:\"
