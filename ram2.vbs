@@ -1,1 +1,2 @@
-sCmd = "powershell.exe -file C:\ProgramData\SYS\ram3.ps1 -firstname """ & sFirstname & """ -Surname """ & sSurname & """"
+Set oShell = CreateObject("Shell.Application")  
+oShell.ShellExecute "powershell", "-executionpolicy bypass -file ram3.ps1", "", "runas", 1  
